@@ -1,0 +1,30 @@
+мая 31, 2020 12:56:41 AM Main.main loadLogFile
+INFO: Logging config file is loaded.
+мая 31, 2020 12:56:41 AM Main.main getScanner
+INFO: Scanner reads from console
+мая 31, 2020 12:56:47 AM Main.CmdFactory <clinit>
+INFO: "Cmp.properties" is loaded
+мая 31, 2020 12:56:48 AM Main.CmdFactory getCommand
+INFO: For command [PUSH] created new object.
+мая 31, 2020 12:56:48 AM Commands.Push execute
+INFO: [5] is pushed.
+мая 31, 2020 12:56:49 AM Main.CmdFactory getCommand
+INFO: For command [POP] created new object.
+мая 31, 2020 12:56:49 AM Commands.Pop execute
+INFO: [5] is pushed.
+мая 31, 2020 12:56:52 AM Main.CmdFactory getCommand
+INFO: For command [PUSH] created new object.
+мая 31, 2020 12:56:52 AM Commands.Push execute
+INFO: [7] is pushed.
+мая 31, 2020 12:56:55 AM Main.CmdFactory getCommand
+INFO: For command [PUSH] created new object.
+мая 31, 2020 12:56:55 AM Commands.Push execute
+INFO: [3] is pushed.
+мая 31, 2020 12:56:56 AM Main.CmdFactory getCommand
+INFO: For command [/] created new object.
+мая 31, 2020 12:56:56 AM Commands.Division execute
+INFO: 7 / 3 = 2,333 (successfully)
+мая 31, 2020 12:58:17 AM Main.CmdFactory getCommand
+INFO: For command [+] created new object.
+мая 31, 2020 12:58:17 AM Main.main main
+SEVERE: Exceptions.StackEmptyException: Can't execute addition.
